@@ -1,0 +1,215 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+body{
+	margin:0;
+	padding:0;
+}
+.header{
+	margin-top: 15px;
+}
+.wrapper{
+	width: 90%;
+	margin:0 auto;
+}
+.logo h1{
+	font-family: 'Inconsolata', monospace;
+	font-size: 30;
+	text-transform: uppercase;
+	float: left;
+	letter-spacing: 5px;
+	font-weight: 400;
+}
+.menu{
+	width: 70%;
+	float: right;
+}
+.menu ul{
+	list-style: none;
+	float: right;
+}
+.menu ul li{
+	margin-top: 15px;
+	float: left;
+
+}
+.menu ul li a{
+	text-decoration:none;
+	color:#626262;
+	padding:0 65px;
+	margin-top: 10px;
+	transition:.5s;
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	
+}
+.menu ul li a:hover{
+	font-size: 120%;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.banner img{
+	width: 100%;
+	margin-top: 40px;
+}
+/*---------------------------------------text starts*/
+.wrapper2{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.greys{
+	color: #b4ad9e;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.title{
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: #626262;
+}
+.ptext{
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #626262;
+	line-height: 23px;
+	margin-bottom: 50px;
+
+}
+.photodiary{
+	margin-top: 50px;
+	
+}
+/*-----------------------------------photoiary end*/
+/*blog start*/
+.blogtext{
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #626262;
+	line-height: 23px;
+}
+.blog{
+	width: 47%;
+	margin-top:120px;
+	float:left;
+}
+.blogimg img{
+	width: 100%;
+}
+.blog:nth-child(even){
+	margin-left: 5%;
+}
+.blog:nth-child(3){
+	margin-left: 0%;
+}
+/*blog end*/
+/*---------------------------newsletter*/
+.newsletter{
+	height: 250px;
+	background-color: #f0f0f0;
+	margin-top: 100px;
+}
+.newsletter h1{
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: #333333;
+	text-align: center;
+	padding-top: 60px;
+
+}
+/*-------------------newsletter ends*/
+.button{
+	width: 15%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top:150px;
+	margin-bottom: 400px;
+}
+.button button{
+	background-color: #ffffff;
+	border: none;
+	width: 160px;
+	height: 60px;
+	border: 1px #626262 solid;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #626262;
+	transition: .5s;
+}
+.button button:hover{
+	color: white;
+	background-color: #626262;
+}
+/*---------------buutton ends*/
+/*------------------footer starts*/
+.footer{
+	background-color:#f0f0f0;
+	height: 100px;
+}
+.info{
+	padding-top: 35px;
+}
+.terms{
+	float: left;
+	width: 20%;
+}
+.terms a{
+	text-decoration: none;
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: black;
+
+}
+.privacy{
+	margin-left: 15px;
+}
+.follow{
+	float: right;
+}
+.follow a{
+	text-decoration: none;
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: black;
+	margin-left: 10px;
+
+}
+.follow i{
+	color: #626262;
+	transition: .5s;
+}
+.follow i:hover{
+	font-size: 120%;
+}
+.form{
+	text-align: center;
+}
+.form input{
+	width: 330px;
+	height: 25px;
+	border: none;
+	background-color: #f0f0f0;
+	border-bottom:1px solid black;
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	font-weight: 400;
+	color:#626262;
+	padding-top: 30px;
+}
+.form button{
+	border: none;
+	background-color: #f0f0f0;
+	border-bottom:1px solid black;
+	height: 31px;
+
+}
